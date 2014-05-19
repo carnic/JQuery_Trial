@@ -1,0 +1,11 @@
+$(document).ready(function(){
+	$('u').click(function(){
+		$('ul').toggleClass('invisible');
+	});
+	$('#vegetables').click(function(){
+		$('#veg').toggleClass('invisible');
+	});
+	$('#fruits').click(function(){
+		$('#f').toggleClass('invisible');
+	});
+});
